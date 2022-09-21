@@ -16,17 +16,17 @@ console.log(Math.ceil(Math.random()*6))
 
 
 
-/* Custom Roll
+//Custom Roll
 
-const prompt = require('prompt-sync')({sigint: true});
+// const prompt = require('prompt-sync')({sigint: true});
 
-console.log("So you wanna roll the dice?")
+// console.log("So you wanna roll the dice?")
 
-let sides = Number(prompt("How many sides do you want?: "));
+// let sides = Number(prompt("How many sides do you want?: "));
 
-console.log(Math.ceil(Math.random()*sides))
+// console.log(Math.ceil(Math.random()*sides))
 
-*/
+
 
 
 //Rigged
@@ -38,7 +38,7 @@ console.log("So you wanna roll the dice?")
 let rig = Number(prompt("Lets load this dice..what do you want to roll? 1 - 6: "));
 
 
-let result = Math.ceil(Math.random()*10)
+let result = Math.ceil(Math.random()*6)
 
 if(result === 7){
     console.log(rig)
